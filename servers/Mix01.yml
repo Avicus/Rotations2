@@ -1,24 +1,54 @@
-minimum: 0.25
+minimum: 0.2
 maximum: 1.2
 maps:
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+- Onyx
+selection:
 - Greenwoods     #CTH
 - PortTown2      #DTM
 - Boolean        #CTF
 - SunbeamTemple  #DTM
 - Justice3       #CTW
 - Zao1           #TDM
+- Quintus        #DTM
 - Vallis         #Nexus
 - Curabitur      #DTM
 - DragonValley   #CTW
 - Archange1      #Nexus
+- Necro          #CTH
 - SectorSix      #DTM
 - CrescentSubtle #DTM
 - Travestia      #Nexus
+- Halcyon        #DTM
 - Brushwoods     #CTW
+- Luar           #DTM
 - KingsFortress2 #DTM
-- WorldsEnd      #Nexus
 - IllegalOffice  #TDM
 - Arizona        #CTW
+- TetrisJungle   #Walls
 - Yellowstone    #DTM
 - DivinesRedux   #CTF
 - FossilCanyon   #DTM
