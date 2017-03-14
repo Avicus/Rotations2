@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rotation>
-    <map>Justice 1</map>
+    <map>Senex 2</map>
+    <map>Fissura</map>
+    <map>PortTown 2</map>
     <map>Halcyon I</map>
-    <map>Rendezvous</map>
-    <map>Atlantis</map>
+    <map>DustDevils</map>
     <map>Luar Remastered</map>
-    <map>Mute City 2</map>
-    <map>Senex 1</map>
-    <map>Tasty Fight</map>
-    <map>Arida</map>
+    <map>Darkness</map>
+    <map>Candyland</map>
+    <map>Curabitur</map>
 </rotation>
