@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rotation>
-    <map>Victory</map>
-    <map>Formorgar 2</map>
+    <map>Rendezvous</map>
+    <map>Clay Wars</map>
     <map>Unix</map>
-    <map>Proelium1.5</map>
-    <map>Dust Devils</map>
-    <map>Sandstorm</map>
-    <map>Ravanged</map>
-    <map>Senex 1</map>
+    <map>Sunbeam Temple</map>
+    <map>Cavum</map>
+    <map>Daisy</map>
+    <map>Fissura</map>
+    <map>Justice 1</map>
     <map>Senex 2</map>
-    <map>Campi Erbosi Origins</map>
-    <map>Sector Six</map>
-    <map>Port Town 1</map>
-    <map>Tallon Overworld</map>
+    <map>Luar Remastered</map>
+    <map>Yin Yang</map>
+    <map>Port Town 2</map>
+    <map>Mute City 2</map>
     <map>Oasis</map>
 </rotation>
