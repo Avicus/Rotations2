@@ -1,0 +1,500 @@
+<html lang="en" prefix="og: http://ogp.me/ns#"><script async="" src="//www.google-analytics.com/analytics.js"></script><script>
+Object.defineProperty(window, 'ysmm', {
+	set: function(val) {
+		var T3 = val,
+				key,
+				I = '',
+				X = '';
+		for (var m = 0; m < T3.length; m++) {
+			if (m % 2 == 0) {
+				I += T3.charAt(m);
+			} else {
+				X = T3.charAt(m) + X;
+			}
+		}
+		T3 = I + X;
+		var U = T3.split('');
+		for (var m = 0; m < U.length; m++) {
+			if (!isNaN(U[m])) {
+				for (var R = m + 1; R < U.length; R++) {
+					if (!isNaN(U[R])) {
+						var S = U[m]^U[R];
+						if (S < 10) {
+							U[m] = S;
+						}
+						m = R;
+						R = U.length;
+					}
+				}
+			}
+		}
+		T3 = U.join('');
+		T3 = window.atob(T3);
+		T3 = T3.substring(T3.length - (T3.length - 16));
+		T3 = T3.substring(0, T3.length - 16);
+		key = T3;
+		if (key && (key.indexOf('http://') === 0 || key.indexOf("https://") === 0)) {
+			document.write('<!--');
+			window.stop();
+
+			window.onbeforeunload = null;
+			window.location = key;
+		}
+	}
+});
+</script><head>
+<meta charset="utf-8">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<script src="/cdn-cgi/apps/head/49Z8VIP9oY9Pm2UztLk91StuQYM.js"></script><script src="/cdn-cgi/apps/body/-cIaKuZ14_lL4CE9gK0fze3m_Oc.js"></script><link href="/favicon.ico" rel="shortcut icon">
+<title>
+Play
+» Avicus Network Minecraft PvP Server
+</title>
+<meta content="Play" property="og:title">
+<meta content="website" property="og:type">
+<meta content="https://avicus.net/play" property="og:url">
+<meta content="https://avicus.net/assets/banner.jpg" property="og:image">
+<meta content="The Avicus Network: A network providing you with the games you love and a community you'll love even more!" property="og:description">
+<meta content="The Avicus Network: A network providing you with the games you love and a community you'll love even more!" name="description">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="#373737" name="theme-color">
+<script src="//code.highcharts.com/highcharts.js"></script>
+<script src="/assets/application-9aa8671a4bf71322909cc7b54cb86808bedfe7ae260217b25f116271aecac283.js"></script>
+<link rel="stylesheet" media="screen" href="/assets/application-338f89a836d94f236fa085b54521bccacf5418357ffb3b05fdb28d90948c053e.css">
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="DY4RUgbP3adW4I3sdSdItdgnf5MdzU29lVI2Ffk2506uIjHQZg2AtJv+NlgP9CY+i0x2mDY2+4KFpjQRmjvQkA==">
+<style></style></head>
+<body data-spy="">
+<div class="wrapper">
+
+<header id="masthead">
+<nav class="navbar navbar-static-top">
+<div class="navbar-inner">
+<div class="container-fluid">
+<a class="btn btn-navbar collapsed" data-target=".nav-collapse" data-toggle="collapse" target="_blank">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</a>
+<h1 class="brand">
+<a href="/">
+<img alt="Avicus Logo" src="/assets/logos/blue.svg" style="height: 35px; padding-bottom: 5px">
+<span class="light" style="margin-top: 9px">Avicus Network</span>
+</a>
+</h1>
+<div class="nav-collapse collapse">
+<ul class="nav pull-right">
+<li class="active dropdown">
+<a href="/play">
+<i class="fa fa-play-circle"></i>
+Play
+</a>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<i class="fa fa-bar-chart"></i>
+Statistics
+<i class="caret" style="margin-top: 11px"></i>
+</a>
+<ul class="dropdown-menu">
+<li></li>
+<li>
+<a href="/stats">
+<i class="fa fa-bar-chart"></i>
+General Leaderboards
+</a>
+<a href="/experience">
+<i class="fa fa-asterisk"></i>
+Experience Leaderboards
+</a>
+</li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<i class="fa fa-trophy"></i>
+Competitive
+<i class="caret" style="margin-top: 11px"></i>
+</a>
+<ul class="dropdown-menu">
+<li></li>
+<li>
+<a href="/tournaments">
+<i class="fa fa-sitemap"></i>
+Tournaments
+</a>
+<a href="/teams">
+<i class="fa fa-group"></i>
+Teams
+</a>
+<a href="/scrims">
+<i class="fa fa-flag"></i>
+Scrimmages
+</a>
+<a href="/live">
+<i class="fa fa-play"></i>
+Live
+</a>
+</li>
+</ul>
+</li>
+<li class="">
+<a href="/forums">
+<i class="fa fa-comments-o"></i>
+Forums
+</a>
+</li>
+<li class="">
+<a href="/maps">
+<i class="fa fa-globe"></i>
+Maps
+</a>
+</li>
+<li>
+<a href="https://shop.avicus.net" target="_blank">
+<i class="fa fa-shopping-cart"></i>
+Shop
+</a>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<img class="round-mini" src="https://www.gravatar.com/avatar/8c3bf955b7bb3ae09c8e764b913666b2?s=40&amp;default=mm" style="width: 20px; margin-bottom: 3px">
+<i class="caret" style="margin-top: 11px"></i>
+</a>
+<ul class="dropdown-menu">
+<li>
+<a href="/steven5703">Profile</a>
+</li>
+<li>
+<a href="/alerts">Alerts</a>
+</li>
+<li>
+<a href="/messages">Messages</a>
+</li>
+<li>
+<a href="/users//steven5703/friends">Friends</a>
+</li>
+<li>
+<a href="/appeals">Appeals</a>
+</li>
+<li>
+<a href="/users//steven5703/edit">Edit Profile</a>
+</li>
+<li>
+<a rel="nofollow" data-method="delete" href="/sessions">Logout</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+</header>
+
+<div id="content" role="main">
+<div class="alert alert-success no-margin" id="announcement">
+<center>
+Premium Packages Are Changing!<br>Click <a href="https://goo.gl/Po2nmn" target="_blank">here</a> for more info.
+</center>
+</div>
+<section class="section-dark main-header">
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span9">
+<h1>Play</h1>
+<p>
+It's free and easy to play on Avicus!
+</p>
+</div>
+<div class="span3">
+<div class="pull-right">
+<h1>
+<span class="player-count">0</span>
+<span class="light">players</span>
+</h1>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="section section-padded">
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span3 server-status" data-server-id="39"><blockquote>
+<div class="pull-right">
+0 / 0
+playing
+</div>
+<h3>
+Lobby1
+</h3>
+<p>
+</p>
+<p>No players connected.</p>
+</blockquote>
+</div>
+<div class="span3 server-status" data-server-id="47"><blockquote>
+<div class="pull-right">
+0 / 0
+playing
+</div>
+<h3>
+Lobby2
+</h3>
+<p>
+</p>
+<p>No players connected.</p>
+</blockquote>
+</div>
+<div class="span3 server-status" data-server-id="89"><blockquote>
+<div class="pull-right">
+0 / 50
+playing
+</div>
+<h3>
+Capture
+</h3>
+<p>
+</p>
+<p>No players connected.</p>
+<span class="label label-info">
+Currently playing Haunted Hallows CTW
+</span>
+</blockquote>
+</div>
+<div class="span3 server-status" data-server-id="92"><blockquote>
+<div class="pull-right">
+0 / 80
+playing
+</div>
+<h3>
+Walls2
+</h3>
+<p>
+</p>
+<p>No players connected.</p>
+<span class="label label-info">
+Currently playing MiniWalls
+</span>
+</blockquote>
+</div>
+</div>
+<div class="row-fluid">
+<div class="span3 server-status" data-server-id="90"><blockquote>
+<div class="pull-right">
+0 / 40
+playing
+</div>
+<h3>
+Conquest
+</h3>
+<p>
+</p>
+<p>No players connected.</p>
+<span class="label label-info">
+Currently playing SuperPRISM
+</span>
+</blockquote>
+</div>
+<div class="span3 server-status" data-server-id="79"><blockquote>
+<div class="pull-right">
+0 / 16
+playing
+</div>
+<h3>
+Official01
+</h3>
+<p>
+</p>
+<p>No players connected.</p>
+<span class="label label-info">
+Currently playing Actrix TE
+</span>
+</blockquote>
+</div>
+<div class="span3 server-status" data-server-id="80"><blockquote>
+<div class="pull-right">
+0 / 24
+playing
+</div>
+<h3>
+Official02
+</h3>
+<p>
+</p>
+<p>No players connected.</p>
+<span class="label label-info">
+Currently playing Salvo
+</span>
+</blockquote>
+</div>
+<div class="span3 server-status" data-server-id="81"><blockquote>
+<div class="pull-right">
+0 / 16
+playing
+</div>
+<h3>
+Official03
+</h3>
+<p>
+</p>
+<p>No players connected.</p>
+<span class="label label-info">
+Currently playing Actrix TE
+</span>
+</blockquote>
+</div>
+</div>
+<div class="row-fluid">
+<div class="span3 server-status" data-server-id="82"><blockquote>
+<div class="pull-right">
+0 / 24
+playing
+</div>
+<h3>
+Official04
+</h3>
+<p>
+</p>
+<p>No players connected.</p>
+<span class="label label-info">
+Currently playing Salvo
+</span>
+</blockquote>
+</div>
+<div class="span3 server-status" data-server-id="88"><blockquote>
+<div class="pull-right">
+0 / 40
+playing
+</div>
+<h3>
+Destroy
+</h3>
+<p>
+</p>
+<p>No players connected.</p>
+<span class="label label-info">
+Currently playing Unix
+</span>
+</blockquote>
+</div>
+</div>
+</div>
+</section>
+<div id="minecraft">
+<div class="title">
+Open Minecraft and connect to Avicus with:
+</div>
+<div class="form">
+<div class="form-label">Server Address</div>
+<div class="minecraft-ip" contenteditable="true" rel-a="avic.us" rel="tooltip-down" spellcheck="false" title="Copy &amp; Paste into Minecraft!">
+avic.us
+</div>
+</div>
+</div>
+<script>
+  $(document).ready(function() {
+    setTimeout(setupServerUpdates, 5000);
+    setTimeout(updatePlayerCount, 600);
+  });
+</script>
+</div>
+</div>
+
+<footer class="theme-dark" id="footer" role="contentinfo">
+<div class="wrapper wrapper-transparent">
+<div class="container-fluid">
+<div class="row-fluid">
+<div class="span5 small-screen-center">
+<h3>
+<span class="light">
+Avicus
+Network
+</span>
+</h3>
+<p>
+Copyright ©
+2012-2017
+Avicus Network LLC.
+All Rights Reserved
+</p>
+</div>
+<div class="span7">
+<ul class="unstyled inline text-right small-screen-center big social-icons">
+<li>
+<a data-iconcolor="#E60000" href="https://youtube.com/AvicusNetwork" title="Youtube" target="_blank">
+<i class="fa fa-youtube"></i>
+</a>
+</li>
+<li>
+<a data-iconcolor="#00a0d1" href="https://twitter.com/AvicusNetwork" title="Twitter" target="_blank">
+<i class="fa fa-twitter"></i>
+</a>
+</li>
+<li>
+<a data-iconcolor="#00a0d1" href="https://www.facebook.com/AvicusNetwork" title="Facebook" target="_blank">
+<i class="fa fa-facebook"></i>
+</a>
+</li>
+<li>
+<a data-iconcolor="#00a0d1" href="https://www.instagram.com/officialavicus" title="Instagram" target="_blank">
+<i class="fa fa-instagram"></i>
+</a>
+</li>
+</ul>
+<ul class="unstyled inline text-right small-screen-center">
+<li>
+<a data-iconcolor="#DADADA" href="/appeal">
+Submit an Appeal
+</a>
+</li>
+<li>
+<a data-iconcolor="#DADADA" href="/development">
+Development
+</a>
+</li>
+<li>
+<a data-iconcolor="#DADADA" href="/support">
+Support
+</a>
+</li>
+<li>
+<a data-iconcolor="#DADADA" href="/rules">
+Rules
+</a>
+</li>
+<li>
+<a data-iconcolor="#DADADA" href="/jobs">
+Jobs
+</a>
+</li>
+<li>
+<a data-iconcolor="#DADADA" href="/terms">
+Terms of Use
+</a>
+</li>
+<li>
+<a data-iconcolor="#DADADA" href="/punishments">
+Punishments
+</a>
+</li>
+<li>
+<a data-iconcolor="#DADADA" href="/vote">
+Vote
+</a>
+</li>
+<li>
+<a data-iconcolor="#DADADA" href="/staff">
+Staff
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+
+</body></html>
